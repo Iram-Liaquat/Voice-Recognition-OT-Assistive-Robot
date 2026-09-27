@@ -193,3 +193,22 @@ $$
 \frac{r_{13}}{\sin(\theta_4)}
 \right)
 $$
+
+---
+
+## 📚 References & Equation Citations
+
+All mathematical formulations in this document are derived from the official B.Sc. thesis:
+
+**Primary Source:**
+> Baig, A. F., Ahmed, A., Liaquat, I., & Noor, S. (2019). *Voice Recognition based Operation Theatre Assistive Robot*. B.Sc. Thesis, Department of Mechatronics and Control Engineering, University of Engineering and Technology, Lahore (Faisalabad Campus).
+
+**Equation References:**
+- **Forward Kinematics**: Thesis Equations 4.1 - 4.13 (Chapter 4)
+- **Jacobian Matrix**: Thesis Equations 5.1 - 5.12 (Chapter 5)
+- **D-H Parameters**: Thesis Table 2.1 (Chapter 4)
+
+**Standard Robotics Literature:**
+1. R. K. Mittal and I. J. Nagrath, *Robotics and Control*. Tata McGraw-Hill, 2003.
+2. M. W. Spong and M. Vidyasagar, *Robot Dynamics and Control*. John Wiley & Sons, 1989.
+3. J. J. Craig, *Introduction to Robotics: Mechanics and Control*. Pearson Prentice Hall, 2005.
