@@ -86,17 +86,20 @@ For a deeper dive into the research, methodology, and results, please refer to t
 
 ---
 
-## 👤 My Primary Contributions
-As part of the core 4-member engineering team, my specific contributions included:
-* **Kinematic Modeling**: Deriving the D-H parameter table, formulating the forward/inverse kinematics equations, and calculating the Jacobian matrix for singularity analysis.
-* **Embedded Control Logic**: Designing the closed-loop feedback algorithm for the elevator mechanism using the KY-040 encoder and L298 driver.
-* **System Integration**: Bridging the UART communication between the Voice Module and the manipulator control logic, and validating the joint-space trajectories in RoboAnalyzer.
+## 👥 Team Project & Technical Focus
+This was a collaborative 4-person B.Sc. thesis project. While the workload was distributed across the team (covering mechanical design, CAD, and firmware), my technical focus and foundational learning in this project centered on:
+
+- **Kinematic Modeling & Simulation**: Utilizing Denavit-Hartenberg (D-H) parameters and RoboAnalyzer to derive forward kinematics and validate the 4-DOF manipulator's workspace and trajectory planning.
+- **Hardware-Software Integration**: Bridging the communication between the Geeetech Voice Recognition Module (UART), the KY-040 encoder feedback loop, and the Arduino-based servo control system.
+- **System-Level Validation**: Testing the end-to-end "voice-to-handover" pipeline, troubleshooting friction factors, and ensuring the 8-second cycle time met the operational requirements for a sterile environment.
+
+*This project served as my foundational introduction to robotics and embedded system validation, directly inspiring my current 5+ year career in Embedded QA and safety-critical system testing.*
 
 ---
 
 ## 📂 Repository Structure
 ```text
-├── /docs                   # FYP Summary PDF, D-H mathematical derivations, RoboAnalyzer graphs
+├── /docs                   # Conference Paper OT Assistive Robot PDF, FYP Final Presentation PDF, D-H mathematical derivations, RoboAnalyzer graphs
 ├── /firmware               # Modular Arduino C++ code (Voice, Elevator, Manipulator)
 ├── /kinematics             # DH tables, transformation matrices, and Jacobian derivations
 ├── /hardware               # Pin mapping diagrams, wiring schematics, and Bill of Materials
