@@ -6,7 +6,7 @@
 ![Hardware](https://img.shields.io/badge/Hardware-4DOF_Manipulator-green.svg)
 
 > **B.Sc. Final Year Thesis** | Mechatronics & Control Engineering, UET Lahore (Faisalabad Campus), 2019  
-> **Authors**: Amr Fazeel Baig, Arslan Ahmed, **Iram Liaquat**, Samavia Noor  
+> **Authors**: **Iram Liaquat**, Arslan Ahmed, Amr Fazeel Baig, Samavia Noor  
 > **Supervisors**: Engr. Syed Muhammad Umer, Engr. Armaghan Mehmood  
 
 ---
@@ -79,10 +79,15 @@ The firmware is modularized to prevent blocking operations and ensure real-time 
  
 ---
 
-## 📄 Publications & Presentations
-For a deeper dive into the research, methodology, and results, please refer to the documents in the `/docs` folder:
-- 📑 **[Conference/Summary Paper](./docs/FYP_Summary_Paper.pdf)**: Detailed analysis of the 4-DOF kinematic model, forward kinematics, and system design.
+## 📄 Detailed Documentation
+For a deeper dive into the research, methodology, and results, please refer to the comprehensive documents in the `/docs` folder:
+- 📑 **[Conference Paper](./docs/Conference_Paper_OT_Assistive_Robot.pdf)**: Detailed analysis of the 4-DOF kinematic model and system design.
 - 📊 **[Final Presentation](./docs/FYP_Final_Presentation.pdf)**: A visual walkthrough of the problem statement, hardware architecture, and prototype demonstration.
+- 📐 **[D-H Kinematics Derivation](./docs/DH_Kinematics_Derivation.md)**: Complete D-H parameter tables, transformation matrices, and inverse kinematics.
+- 📉 **[Jacobian & Singularity Analysis](./docs/Jacobian_and_Singularity_Analysis.md)**: Differential kinematics and workspace singularity identification.
+- ⚙️ **[Hardware Design Document](./docs/Hardware_Design_Document.md)**: Complete BOM, pin mappings, and mechanical specifications.
+- 🏗️ **[System Architecture](./docs/System_Architecture.md)**: Block diagrams, data flow, and communication protocols.
+- 🖼️ **[System Diagrams](./docs/System_Diagram.md)**: High-level visual architecture and block diagrams.
 
 ---
 
@@ -99,8 +104,7 @@ This was a collaborative 4-person B.Sc. thesis project. While the workload was d
 
 ## 📂 Repository Structure
 ```text
-├── /docs                   # Conference Paper OT Assistive Robot PDF, FYP Final Presentation PDF, D-H mathematical derivations, RoboAnalyzer graphs
+├── /assets                 # System demonstration GIF
+├── /docs                   # Conference Paper, Final Presentation, D-H derivations, Jacobian analysis, Hardware specs, System Architecture & Diagram
 ├── /firmware               # Modular Arduino C++ code (Voice, Elevator, Manipulator)
-├── /kinematics             # DH tables, transformation matrices, and Jacobian derivations
-├── /hardware               # Pin mapping diagrams, wiring schematics, and Bill of Materials
-└── README.md               # Project documentation
+└── README.md               # Main project documentation
