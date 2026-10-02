@@ -81,7 +81,6 @@ The firmware is modularized to prevent blocking operations and ensure real-time 
 
 ## 📄 Detailed Documentation
 For a deeper dive into the research, methodology, and results, please refer to the comprehensive documents in the `/docs` folder:
-- 📑 **[Conference Paper](./docs/Conference_Paper_OT_Assistive_Robot.pdf)**: Detailed analysis of the 4-DOF kinematic model and system design.
 - 📊 **[Final Presentation](./docs/FYP_Final_Presentation.pdf)**: A visual walkthrough of the problem statement, hardware architecture, and prototype demonstration.
 - 📐 **[D-H Kinematics Derivation](./docs/DH_Kinematics_Derivation.md)**: Complete D-H parameter tables, transformation matrices, and inverse kinematics.
 - 📉 **[Jacobian & Singularity Analysis](./docs/Jacobian_and_Singularity_Analysis.md)**: Differential kinematics and workspace singularity identification.
@@ -105,6 +104,6 @@ This was a collaborative 4-person B.Sc. thesis project. While the workload was d
 ## 📂 Repository Structure
 ```text
 ├── /assets                 # System demonstration GIF
-├── /docs                   # Conference Paper, Final Presentation, D-H derivations, Jacobian analysis, Hardware specs, System Architecture & Diagram
+├── /docs                   # Final Presentation, D-H derivations, Jacobian analysis, Hardware specs, System Architecture & Diagram
 ├── /firmware               # Modular Arduino C++ code (Voice, Elevator, Manipulator)
 └── README.md               # Main project documentation
